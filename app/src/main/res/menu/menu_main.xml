@@ -1,0 +1,17 @@
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+
+    <item android:id="@+id/render_labels"
+        android:checkable="true"
+        android:title="@string/render_labels" />
+
+    <item android:id="@+id/render_info"
+        android:title="@string/render_info"
+        android:checkable="true"/>
+
+    <item android:id="@+id/exit"
+        android:title="@string/exit"/>
+
+</menu>
